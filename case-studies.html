@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Case studies showcasing CSR impact assessment, market research, and technology consulting results.">
+    <title>Case Studies | Aatharva Bodhi</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sticky Header -->
+    <header class="header sticky">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Aatharva Bodhi</a>
+                <nav class="nav" id="mainNav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="solutions.html" class="nav-link">Solutions</a></li>
+                        <li><a href="industries.html" class="nav-link">Industries</a></li>
+                        <li><a href="case-studies.html" class="nav-link active">Case Studies</a></li>
+                        <li><a href="frameworks.html" class="nav-link">Frameworks</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="contact.html#consultation" class="btn btn-primary btn-header">Book a Consultation</a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Case Studies</h1>
+            <p class="page-subtitle">Real-world examples of how we help organizations turn insights into measurable impact.</p>
+        </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="case-study-filters">
+        <div class="container">
+            <div class="filters">
+                <label for="filter-region" class="filter-label">Region:</label>
+                <select id="filter-region" class="filter-select">
+                    <option value="">All Regions</option>
+                    <option value="United States">United States</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Japan">Japan</option>
+                    <option value="China">China</option>
+                    <option value="Global">Global</option>
+                </select>
+                <label for="filter-service" class="filter-label">Service:</label>
+                <select id="filter-service" class="filter-select">
+                    <option value="">All Services</option>
+                    <option value="CSR Impact">CSR Impact Assessment</option>
+                    <option value="Market Research">Market Research</option>
+                    <option value="Product Surveys">Product Launch Surveys</option>
+                    <option value="Data Engineering">Data Engineering</option>
+                    <option value="Cloud AI">Cloud & AI</option>
+                </select>
+                <label for="filter-industry" class="filter-label">Industry:</label>
+                <select id="filter-industry" class="filter-select">
+                    <option value="">All Industries</option>
+                    <option value="Manufacturing">Manufacturing</option>
+                    <option value="Healthcare">Healthcare</option>
+                    <option value="BFSI">BFSI</option>
+                    <option value="Consumer Retail">Consumer/Retail</option>
+                    <option value="Public Sector">Public Sector</option>
+                    <option value="NGO">NGO/Foundations</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Grid -->
+    <section class="case-studies-section">
+        <div class="container">
+            <div class="case-studies-grid">
+                <!-- Case Study 1 -->
+                <article class="case-study-card" id="case-1" data-region="Global" data-service="CSR Impact" data-industry="Manufacturing">
+                    <div class="case-study-tag">CSR Impact</div>
+                    <h3 class="case-study-title">Multi-Region CSR Impact Assessment for Fortune 500</h3>
+                    <p class="case-study-description">Comprehensive impact measurement across [X] countries, resulting in [X%] improvement in program effectiveness and strategic optimization of CSR investments.</p>
+                    <div class="case-study-meta">
+                        <span class="case-study-industry">Manufacturing</span>
+                        <span class="case-study-region">Global</span>
+                    </div>
+                    <a href="case-study-detail.html?id=1" class="case-study-link">Read case study →</a>
+                </article>
+
+                <!-- Case Study 2 -->
+                <article class="case-study-card" id="case-2" data-region="United States,Singapore" data-service="Market Research" data-industry="Healthcare">
+                    <div class="case-study-tag">Market Research</div>
+                    <h3 class="case-study-title">Product Launch Study for Healthcare Startup</h3>
+                    <p class="case-study-description">Market validation study across [X] markets, informing go-to-market strategy and achieving [X%] adoption rate within [N] months of launch.</p>
+                    <div class="case-study-meta">
+                        <span class="case-study-industry">Healthcare</span>
+                        <span class="case-study-region">US, Singapore</span>
+                    </div>
+                    <a href="case-study-detail.html?id=2" class="case-study-link">Read case study →</a>
+                </article>
+
+                <!-- Case Study 3 -->
+                <article class="case-study-card" id="case-3" data-region="Europe" data-service="Data Engineering" data-industry="BFSI">
+                    <div class="case-study-tag">Data Engineering</div>
+                    <h3 class="case-study-title">Cloud Data Lakehouse Implementation</h3>
+                    <p class="case-study-description">Modernized data infrastructure reducing processing time by [X%] and enabling real-time analytics for [X] business units.</p>
+                    <div class="case-study-meta">
+                        <span class="case-study-industry">BFSI</span>
+                        <span class="case-study-region">Europe</span>
+                    </div>
+                    <a href="case-study-detail.html?id=3" class="case-study-link">Read case study →</a>
+                </article>
+
+                <!-- Case Study 4 -->
+                <article class="case-study-card" id="case-4" data-region="Singapore" data-service="Product Surveys" data-industry="Consumer Retail">
+                    <div class="case-study-tag">Product Surveys</div>
+                    <h3 class="case-study-title">New Product Launch Survey for Consumer Brand</h3>
+                    <p class="case-study-description">Multi-channel survey capturing [X] responses across [N] markets, identifying key adoption barriers and informing product positioning strategy.</p>
+                    <div class="case-study-meta">
+                        <span class="case-study-industry">Consumer/Retail</span>
+                        <span class="case-study-region">Singapore</span>
+                    </div>
+                    <a href="case-study-detail.html?id=4" class="case-study-link">Read case study →</a>
+                </article>
+
+                <!-- Case Study 5 -->
+                <article class="case-study-card" id="case-5" data-region="Japan" data-service="Cloud AI" data-industry="Manufacturing">
+                    <div class="case-study-tag">Cloud & AI</div>
+                    <h3 class="case-study-title">AI-Powered Predictive Maintenance System</h3>
+                    <p class="case-study-description">Deployed ML models reducing equipment downtime by [X%] and maintenance costs by [USD X] annually through predictive analytics.</p>
+                    <div class="case-study-meta">
+                        <span class="case-study-industry">Manufacturing</span>
+                        <span class="case-study-region">Japan</span>
+                    </div>
+                    <a href="case-study-detail.html?id=5" class="case-study-link">Read case study →</a>
+                </article>
+
+                <!-- Case Study 6 -->
+                <article class="case-study-card" id="case-6" data-region="Global" data-service="CSR Impact" data-industry="NGO">
+                    <div class="case-study-tag">CSR Impact</div>
+                    <h3 class="case-study-title">ESG Impact Measurement for International Foundation</h3>
+                    <p class="case-study-description">Comprehensive ESG impact framework measuring outcomes across [X] programs in [N] countries, enabling data-driven grant allocation decisions.</p>
+                    <div class="case-study-meta">
+                        <span class="case-study-industry">NGO/Foundations</span>
+                        <span class="case-study-region">Global</span>
+                    </div>
+                    <a href="case-study-detail.html?id=6" class="case-study-link">Read case study →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-band">
+        <div class="container">
+            <h2 class="cta-title">Ready to Achieve Similar Results?</h2>
+            <p class="cta-subtitle">Let's discuss how we can help you turn insights into measurable impact.</p>
+            <div class="cta-buttons">
+                <a href="contact.html#proposal" class="btn btn-primary btn-large">Request Proposal</a>
+                <a href="contact.html#consultation" class="btn btn-secondary btn-large">Book a Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Aatharva Bodhi</h3>
+                    <p class="footer-tagline">CSR + Research + Technology consulting that turns insights into measurable impact.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Regions</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">United States</a></li>
+                        <li><a href="#">Singapore</a></li>
+                        <li><a href="#">Europe</a></li>
+                        <li><a href="#">Japan</a></li>
+                        <li><a href="#">China</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">CSR Impact Assessment</a></li>
+                        <li><a href="services.html">Market Research</a></li>
+                        <li><a href="services.html">Product Launch Surveys</a></li>
+                        <li><a href="solutions.html">Data Engineering</a></li>
+                        <li><a href="solutions.html">Cloud & AI</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="case-studies.html">Case Studies</a></li>
+                        <li><a href="frameworks.html">Frameworks</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="blog.html">Insights</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Get in Touch</a></li>
+                        <li><a href="contact.html#consultation">Book Consultation</a></li>
+                        <li><a href="contact.html#proposal">Request Proposal</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <span class="footer-divider">|</span>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2026 Aatharva Bodhi. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Case study filtering
+        document.addEventListener('DOMContentLoaded', function() {
+            const filters = {
+                region: document.getElementById('filter-region'),
+                service: document.getElementById('filter-service'),
+                industry: document.getElementById('filter-industry')
+            };
+            const caseStudies = document.querySelectorAll('.case-study-card');
+
+            function filterCaseStudies() {
+                const regionValue = filters.region.value;
+                const serviceValue = filters.service.value;
+                const industryValue = filters.industry.value;
+
+                caseStudies.forEach(card => {
+                    const cardRegion = card.getAttribute('data-region');
+                    const cardService = card.getAttribute('data-service');
+                    const cardIndustry = card.getAttribute('data-industry');
+
+                    const regionMatch = !regionValue || cardRegion.includes(regionValue) || cardRegion === 'Global';
+                    const serviceMatch = !serviceValue || cardService.includes(serviceValue);
+                    const industryMatch = !industryValue || cardIndustry === industryValue;
+
+                    if (regionMatch && serviceMatch && industryMatch) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            }
+
+            Object.values(filters).forEach(filter => {
+                if (filter) {
+                    filter.addEventListener('change', filterCaseStudies);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
